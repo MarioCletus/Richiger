@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">SPI Mixer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Fernando Tello</string>
+    <string name="nav_header_subtitle">Administrador</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- NO DATA MSG-->
+    <string name="tv_no_user_list">No hay usuarios cargados</string>
+    <string name="tv_no_product_list">No hay productos cargados</string>
+    <string name="tv_no_additional_data">No hay información complementaria</string>
+    <string name="tv_no_diet_list">No hay dietas cargadas</string>
+    <string name="tv_no_round_list">No hay rondas cargadas</string>
+
+    <!-- MENU -->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_product">Productos</string>
+    <string name="menu_mixer">Mixers</string>
+    <string name="menu_establishment">Establecimientos</string>
+    <string name="menu_corral">Corrales</string>
+    <string name="menu_diet">Dietas</string>
+    <string name="menu_round">Rondas</string>
+
+    <!-- TITLES -->
+    <string name="title_add_product">Agregar producto</string>
+
+    <!-- ACTIONS -->
+    <string name="save">Guardar</string>
+    <string name="title_select_image_action">Seleccione una opción</string>
+    <string name="add_product">Agregar Producto</string>
+    <string name="action_edit_product">Editar producto</string>
+    <string name="action_delete_product">Borrar producto</string>
+    <string name="title_edit_product">Editar producto</string>
+    <string name="lbl_update_product">Actualizar producto</string>
+    <string name="lbl_update_diet">Actualizar dieta</string>
+    <string name="title_delete_product">Borrar producto</string>
+    <string name="title_edit_diet">Editar dieta</string>
+    <string name="lbl_update_establishment">Actualizar Establecimiento</string>
+    <string name="title_edit_establishment">Editar establecimiento</string>
+    <string name="title_add_establishment">Agregar establecimiento</string>
+    <string name="title_add_diet">Agregar dieta</string>
+
+    <!-- GENERAL -->
+    <string name="lbl_camera">Cámara</string>
+    <string name="lbl_gallery">Galería</string>
+
+    <!-- ERRORS -->
+    <string name="err_msg_product_name">El nombre del producto es obligatorio</string>
+    <string name="more_contentDescription">Acciones posibles</string>
+    <string name="msg_delete_product_dialog">¿Está seguro que quiere borrar el producto %1$s?</string>
+    <string name="msg_delete_diet_dialog">¿Está seguro que quiere borrar la dieta %1$s?</string>
+    <string name="msg_delete_round_dialog">¿Está seguro que quiere borrar la ronda %1$s?</string>
+    <string name="lbl_yes">Sí</string>
+    <string name="lbl_no">No</string>
+    <string name="action_filter_product">Buscar producto</string>
+    <string name="search_title">Buscar</string>
+    <string name="search_hint">Buscar...</string>
+    <string name="lbl_specific_weight">Peso específico:</string>
+    <string name="lbl_empty">No informado</string>
+    <string name="err_msg_diet_name">El nombre de la dieta es obligatorio</string>
+
+
+    <string name="lb_weight_unit">Kg/m3</string>
+    <string name="lb_weight_unit_kg">Kg</string>
+    <string name="lb_percentage_symbol">%</string>
+    <string name="ph_product_rfid">RF ID</string>
+    <string name="lbl_rfid">RfId:</string>
+    <string name="lbl_app_id">App Id:</string>
+    <string name="lbl_remote_id">Remote Id:</string>
+    <string name="tv_building">Sección en construcción</string>
+    <string name="please_wait">Por favor espere</string>
+
+    <string name="err_msg_establishment_name">El nombre de establecimiento es obligatorio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_no_establishment_list">No hay establecimientos cargados</string>
+    <string name="add_establishment">Buscar establecimiento</string>
+    <string name="action_edit_establishment">Editar establecimiento</string>
+    <string name="action_delete_establishment">Borrar establecimiento</string>
+    <string name="title_delete_establishment">Borrar establecimiento</string>
+    <string name="msg_delete_establishment_dialog">¿Está seguro que quiere borrar el establecimiento %1$s?</string>
+
+    <string name="tv_no_corral_list">No hay corrales cargados</string>
+    <string name="add_corral">Agregar corral</string>
+    <string name="action_edit_corral">Editar corral</string>
+    <string name="action_delete_corral">Borrar corral</string>
+    <string name="lbl_update_corral">Actualizar corral</string>
+    <string name="title_edit_corral">Editar corral</string>
+    <string name="title_add_corral">Agregar corral</string>
+    <string name="err_msg_corral_name">El nombre del corral es obligatorio</string>
+
+    <string name="title_delete_corral">Borrar corral</string>
+    <string name="msg_delete_corral_dialog">¿Está seguro que quiere borrar el corral %1$s?</string>
+    <string name="lbl_establishment">Establecimiento:</string>
+    <string name="lbl_animal_quantity">Cantidad de animales:</string>
+    <string name="tv_no_additional_data_corral">No hay información adicional para este corral</string>
+    <string name="tv_no_additional_data_establishment">No se han asignado corrales al establecimiento</string>
+    <string name="tv_corral_title">Corrales del establecimiento</string>
+    <string name="lbl_update_mixer">Actualizar Mixer</string>
+    <string name="title_edit_mixer">Editar Mixer</string>
+    <string name="title_add_mixer">Agregar Mixer</string>
+    <string name="err_msg_mixer_name">El nombre del Mixer es obligatorio</string>
+    <string name="title_delete_mixer">Borrar Mixer</string>
+    <string name="msg_delete_mixer_dialog">¿Está seguro que quiere borrar el mixer %1$s?</string>
+
+    <string name="tv_no_additional_data_mixer">No hay mixers cargados</string>
+    <string name="add_mixer">Agregar Mixer</string>
+    <string name="action_edit_mixer">Editar Mixer</string>
+    <string name="action_delete_mixer">Borrar Mixer</string>
+    <string name="tv_no_mixer_list">No hay mixers cargados</string>
+    <string name="alert_msg_no_establishment_sync">No se pudo sincronizar el corral porque falta el establecimiento asociado</string>
+    <string name="alert_msg_no_establishment_sync_all">No hay establecimientos cargados. No se pueden sincronizar los corrales.</string>
+
+    <string name="corral_establishment_count">%1$s corrales</string>
+    <string name="no_corrals">Sin corrales</string>
+
+    <!-- PLACE HOLDERS -->
+    <string name="ph_product_name">Nombre</string>
+    <string name="ph_product_description">Descripción</string>
+    <string name="ph_product_specific_weight">Peso específico</string>
+    <string name="ph_establishment_name">Nombre</string>
+    <string name="ph_establishment_description">Descripción</string>
+    <string name="ph_corral_name">Nombre</string>
+    <string name="ph_corral_description">Descripción</string>
+    <string name="ph_animal_quantity">Cantidad de animales</string>
+    <string name="ph_establishment_ref">Establecimiento</string>
+    <string name="ph_mixer_name">Nombre</string>
+    <string name="ph_mixer_description">Descripción</string>
+    <string name="ph_mac">Mac address</string>
+    <string name="ph_tara">Tara</string>
+    <string name="ph_bt_box">BT Box</string>
+    <string name="ph_calibration">Calibración</string>
+
+    <!-- SCREEN NAME -->
+    <string name="splash_screen_title">SPI Mixer</string>
+    <string name="screen_establishment_list">Establecimientos</string>
+    <string name="screen_establishment_detail">Detalle de establecimiento</string>
+    <string name="screen_establishment_new">Nuevo establecimiento</string>
+
+    <string name="screen_corral_list">Corrales</string>
+    <string name="screen_corral_detail">Detalle del corral</string>
+    <string name="screen_corral_new">Nuevo corral</string>
+
+    <string name="screen_product_list">Productos</string>
+    <string name="screen_product_detail">Detalle de producto</string>
+    <string name="screen_product_new">Nuevo producto</string>
+
+    <string name="screen_diet_list">Dietas</string>
+    <string name="screen_diet_detail">Detalle de dieta</string>
+    <string name="screen_diet_new">Nueva dieta</string>
+
+    <string name="screen_mixer_list">Mixers</string>
+    <string name="screen_mixer_detail">Detalle del mixer</string>
+    <string name="screen_mixer_new">Nuevo mixer</string>
+    <string name="sync">Sincronizado</string>
+    <string name="pending_sync">Sincronización pendiente</string>
+    <string name="additional_info">Información adicional</string>
+    <string name="lbl_description">Descripción</string>
+    <string name="lbl_no_description">No se ha cargado una descripción</string>
+    <string name="lbl_no_description_short">Sin descripción</string>
+    <string name="no_establishment">No se pueden crear corrales porque no existen establecimientos</string>
+    <string name="no_products">No hay productos asignados a la dieta</string>
+    <string name="product_diet_count">%1$s productos</string>
+    <string name="corral_round_count">%1$s corrales</string>
+    <string name="title_delete_diet">Eliminar dieta</string>
+    <string name="ph_diet_name">Nombre</string>
+    <string name="action_edit_diet">Editar</string>
+    <string name="action_delete_diet">Borrar</string>
+    <string name="add_diet">Agregar dieta</string>
+    <string name="tv_no_additional_data_diet">No hay productos asignados a la dieta</string>
+    <string name="tv_diet_title">Dieta</string>
+    <string name="ph_diet_description">Descripción</string>
+    <string name="switch_percentage">Usar porcentaje</string>
+    <string name="animal_count">Cant. animales</string>
+    <string name="percentage">Porcentaje</string>
+    <string name="ph_weight">Peso</string>
+    <string name="diet_title">Dietas</string>
+    <string name="diet_detail_title">Detalle de dieta</string>
+    <string name="ph_round_name">Nombre</string>
+    <string name="ph_round_description">Descripción</string>
+    <string name="add_round">Agregar ronda</string>
+    <string name="err_msg_round_name">El título de la ronda es obligatorio</string>
+    <string name="action_edit_round">Editar</string>
+    <string name="action_delete_round">Borrar</string>
+    <string name="title_delete_round">Borrar ronda</string>
+    <string name="title_edit_round">Editar ronda</string>
+    <string name="title_add_round">Agregar ronda</string>
+    <string name="tv_no_additional_data_round">No hay rondas cargadas</string>
+    <string name="ph_round_proportion">Preparado al</string>
+    <string name="ph_round_total_weight">Total</string>
+    <string name="ph_round_diet">Dieta</string>
+    <string name="round_list">Rondas</string>
+    <string name="round_detail_title">Detalle de ronda</string>
+    <string name="no_description">Sin descripción</string>
+    <string name="menu_sync">Sincronizar</string>
+    <string name="sync_intro">La sincronización puede demorar algunos minutos.</string>
+    <string name="sync_btn">Sincronizar</string>
+    <string name="sync_products_title">Productos</string>
+    <string name="sync_mixer_title">Mixer</string>
+    <string name="sync_establishment_title">Establecimientos</string>
+    <string name="sync_corral_title">Corrales</string>
+    <string name="sync_diet_title">Dietas</string>
+    <string name="sync_round_title">Rondas</string>
+    <string name="sync_title">Sincronización</string>
+
+</resources>

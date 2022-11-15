@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_sync"
+            android:icon="@drawable/ic_refresh"
+            android:title="@string/menu_sync" />
+        <item
+            android:id="@+id/nav_establishment"
+            android:icon="@drawable/ic_establishment"
+            android:title="@string/menu_establishment" />
+        <item
+            android:id="@+id/nav_corral"
+            android:icon="@drawable/ic_corral"
+            android:title="@string/menu_corral" />
+        <item
+            android:id="@+id/nav_product"
+            android:iconTint="@color/white"
+            android:icon="@drawable/ic_energy"
+            android:title="@string/menu_product" />
+        <item
+            android:id="@+id/nav_mixer"
+            android:icon="@drawable/ic_blender"
+            android:title="@string/menu_mixer" />
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/ic_local_dining"
+            android:title="@string/menu_diet" />
+        <item
+            android:id="@+id/nav_round"
+            android:icon="@drawable/ic_route"
+            android:title="@string/menu_round" />
+    </group>
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.basculasmagris.richiger">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".application.EnsiladoraApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Spimixer"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".view.activities.AddUpdateRoundActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Spimixer.NoActionBar" />
+        <activity
+            android:name=".view.activities.AddUpdateDietActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Spimixer.NoActionBar" />
+        <activity
+            android:name=".view.activities.AddUpdateMixerActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Spimixer.NoActionBar" />
+        <activity
+            android:name=".view.activities.AddUpdateCorralActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Spimixer.NoActionBar" />
+        <activity
+            android:name=".view.activities.AddUpdateEstablishmentActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:label="Agregar Establecimiento"
+            android:theme="@style/Theme.Spimixer.NoActionBar" />
+        <activity
+            android:name=".view.activities.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Spimixer.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activities.AddUpdateProductActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:label="Agregar Producto"
+            android:theme="@style/Theme.Spimixer.NoActionBar">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".view.activities.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Spimixer.NoActionBar" />
+    </application>
+
+</manifest>
