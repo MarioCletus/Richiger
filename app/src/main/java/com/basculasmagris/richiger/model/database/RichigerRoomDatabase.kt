@@ -36,7 +36,7 @@ abstract class RichigerRoomDatabase: RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     RichigerRoomDatabase::class.java,
-                    "spi_mixer_database"
+                    "richiger_database"
                 ).fallbackToDestructiveMigration().build()
                 INSTANCE = instance
                 instance

@@ -1,4 +1,4 @@
-package ar.com.basculasmagris.richiger
+package com.basculasmagris.richiger
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("ar.com.magris.richiger", appContext.packageName)
+        assertEquals("com.magris.richiger", appContext.packageName)
     }
 }

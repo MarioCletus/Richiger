@@ -8,14 +8,14 @@
     <!-- HOME -->
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.basculasmagris..richiger.view.fragments.HomeFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <!-- PRODUCTS -->
     <fragment
         android:id="@+id/nav_product"
-        android:name="com.basculasmagris..richiger.view.fragments.ProductListFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.ProductListFragment"
         android:label="@string/screen_product_list"
         tools:layout="@layout/fragment_product_list" >
         <action
@@ -28,18 +28,18 @@
 
     <fragment
         android:id="@+id/nav_product_detail"
-        android:name="com.basculasmagris..richiger.view.fragments.ProductDetailFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.ProductDetailFragment"
         android:label="@string/screen_product_detail"
         tools:layout="@layout/fragment_product_detail" >
         <argument
             android:name="productDetail"
-            app:argType="com.basculasmagris..richiger.model.entities.Product"
+            app:argType="com.basculasmagris.richiger.model.entities.Product"
             />
     </fragment>
 
     <activity
         android:id="@+id/addUpdateProductActivity"
-        android:name="com.basculasmagris..richiger.view.activities.AddUpdateProductActivity"
+        android:name="com.basculasmagris.richiger.view.activities.AddUpdateProductActivity"
         android:label="@string/screen_product_new"
         tools:layout="@layout/activity_add_update_product" />
 
@@ -47,13 +47,13 @@
     <!-- ESTABLISHMENTS -->
     <activity
         android:id="@+id/addUpdateEstablishmentActivity"
-        android:name="com.basculasmagris..richiger.view.activities.AddUpdateEstablishmentActivity"
+        android:name="com.basculasmagris.richiger.view.activities.AddUpdateEstablishmentActivity"
         android:label="@string/screen_establishment_new"
         tools:layout="@layout/activity_add_update_establishment" />
 
     <fragment
         android:id="@+id/nav_establishment"
-        android:name="com.basculasmagris..richiger.view.fragments.EstablishmentListFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.EstablishmentListFragment"
         android:label="@string/screen_establishment_list"
         tools:layout="@layout/fragment_establishment_list" >
         <action
@@ -66,19 +66,19 @@
 
     <fragment
         android:id="@+id/establishmentDetailFragment"
-        android:name="com.basculasmagris..richiger.view.fragments.EstablishmentDetailFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.EstablishmentDetailFragment"
         android:label="@string/screen_establishment_detail"
         tools:layout="@layout/fragment_establishment_detail">
         <argument
             android:name="establishmentDetail"
-            app:argType="com.basculasmagris..richiger.model.entities.Establishment"
+            app:argType="com.basculasmagris.richiger.model.entities.Establishment"
             />
     </fragment>
 
     <!-- CORRAL -->
     <fragment
         android:id="@+id/nav_corral"
-        android:name="com.basculasmagris..richiger.view.fragments.CorralListFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.CorralListFragment"
         android:label="@string/screen_corral_list"
         tools:layout="@layout/fragment_corral_list" >
         <action
@@ -91,23 +91,23 @@
 
     <fragment
         android:id="@+id/corralDetailFragment"
-        android:name="com.basculasmagris..richiger.view.fragments.CorralDetailFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.CorralDetailFragment"
         android:label="@string/screen_corral_detail"
         tools:layout="@layout/fragment_corral_detail">
         <argument
             android:name="corralDetail"
-            app:argType="com.basculasmagris..richiger.model.entities.Corral"
+            app:argType="com.basculasmagris.richiger.model.entities.Corral"
             />
     </fragment>
 
     <activity
         android:id="@+id/addUpdateCorralActivity"
-        android:name="com.basculasmagris..richiger.view.activities.AddUpdateCorralActivity"
+        android:name="com.basculasmagris.richiger.view.activities.AddUpdateCorralActivity"
         android:label="@string/screen_corral_new"
         tools:layout="@layout/activity_add_update_corral" />
     <fragment
         android:id="@+id/nav_mixer"
-        android:name="com.basculasmagris..richiger.view.fragments.MixerListFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.MixerListFragment"
         android:label="@string/screen_mixer_list"
         tools:layout="@layout/fragment_mixer_list" >
         <action
@@ -119,23 +119,23 @@
     </fragment>
     <fragment
         android:id="@+id/mixerDetailFragment"
-        android:name="com.basculasmagris..richiger.view.fragments.MixerDetailFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.MixerDetailFragment"
         android:label="@string/screen_mixer_detail"
         tools:layout="@layout/fragment_mixer_detail"
         >
         <argument
             android:name="mixerDetail"
-            app:argType="com.basculasmagris..richiger.model.entities.Mixer"
+            app:argType="com.basculasmagris.richiger.model.entities.Mixer"
             />
     </fragment>
     <activity
         android:id="@+id/addUpdateMixerActivity"
-        android:name="com.basculasmagris..richiger.view.activities.AddUpdateMixerActivity"
+        android:name="com.basculasmagris.richiger.view.activities.AddUpdateMixerActivity"
         android:label="@string/screen_mixer_new"
         tools:layout="@layout/activity_add_update_mixer" />
     <fragment
         android:id="@+id/nav_diet"
-        android:name="com.basculasmagris..richiger.view.fragments.DietListFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.DietListFragment"
         android:label="@string/diet_title"
         tools:layout="@layout/fragment_diet_list" >
         <action
@@ -147,39 +147,39 @@
     </fragment>
     <fragment
         android:id="@+id/dietDetailFragment"
-        android:name="com.basculasmagris..richiger.view.fragments.DietDetailFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.DietDetailFragment"
         android:label="@string/diet_detail_title"
         tools:layout="@layout/fragment_diet_detail" >
         <argument
             android:name="dietDetail"
-            app:argType="com.basculasmagris..richiger.model.entities.Diet"
+            app:argType="com.basculasmagris.richiger.model.entities.Diet"
             />
     </fragment>
     <activity
         android:id="@+id/addUpdateDietActivity"
-        android:name="com.basculasmagris..richiger.view.activities.AddUpdateDietActivity"
+        android:name="com.basculasmagris.richiger.view.activities.AddUpdateDietActivity"
         android:label="activity_add_update_diet"
         tools:layout="@layout/activity_add_update_diet" />
     <activity
         android:id="@+id/addUpdateRoundActivity"
-        android:name="com.basculasmagris..richiger.view.activities.AddUpdateRoundActivity"
+        android:name="com.basculasmagris.richiger.view.activities.AddUpdateRoundActivity"
         android:label="activity_add_update_round"
         tools:layout="@layout/activity_add_update_round" />
     <fragment
         android:id="@+id/roundDetailFragment"
-        android:name="com.basculasmagris..richiger.view.fragments.RoundDetailFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.RoundDetailFragment"
         android:label="@string/round_detail_title"
         tools:layout="@layout/fragment_round_detail"
 
         >
         <argument
             android:name="roundDetail"
-            app:argType="com.basculasmagris..richiger.model.entities.Round"
+            app:argType="com.basculasmagris.richiger.model.entities.Round"
             />
     </fragment>
     <fragment
         android:id="@+id/nav_round"
-        android:name="com.basculasmagris..richiger.view.fragments.RoundListFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.RoundListFragment"
         android:label="@string/round_list" >
         <action
             android:id="@+id/action_roundListFragment_to_roundDetailFragment"
@@ -190,7 +190,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_sync"
-        android:name="com.basculasmagris..richiger.view.fragments.SyncFragment"
+        android:name="com.basculasmagris.richiger.view.fragments.SyncFragment"
         android:label="@string/sync_title"
         tools:layout="@layout/fragment_sync" />
 

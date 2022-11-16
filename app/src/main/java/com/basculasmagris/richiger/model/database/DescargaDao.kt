@@ -1,4 +1,4 @@
-package ar.com.basculasmagris.richiger.model.database
+package com.basculasmagris.richiger.model.database
 
 import androidx.room.*
 import com.basculasmagris.richiger.model.entities.Descarga

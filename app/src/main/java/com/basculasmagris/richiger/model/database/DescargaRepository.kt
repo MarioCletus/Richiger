@@ -1,4 +1,4 @@
-package ar.com.basculasmagris.richiger.model.database
+package com.basculasmagris.richiger.model.database
 
 import androidx.annotation.WorkerThread
 import com.basculasmagris.richiger.model.entities.Descarga

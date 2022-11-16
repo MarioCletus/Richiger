@@ -1,4 +1,4 @@
-package ar.com.basculasmagris.richiger
+package com.basculasmagris.richiger
 
 import org.junit.Test
 
