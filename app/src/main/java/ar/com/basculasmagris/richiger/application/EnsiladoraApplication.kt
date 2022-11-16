@@ -4,7 +4,7 @@ import android.app.Application
 import com.basculasmagris.richiger.model.database.*
 
 class EnsiladoraApplication: Application() {
-    private  val database by lazy { SpiMixerRoomDatabase.getDatabase((this@EnsiladoraApplication))}
+    private  val database by lazy { RichigerRoomDatabase.getDatabase((this@EnsiladoraApplication))}
     val corralRepository by lazy { CorralRepository(database.corralDao()) }
     val dietRepository by lazy { DietRepository(database.dietDao()) }
     val establishmentRepository by lazy { EstablishmentRepository(database.establishmentDao()) }

@@ -17,7 +17,7 @@ import com.basculasmagris.richiger.model.entities.*
     Round::class,
     RoundCorral::class], version = 1)
 
-abstract class SpiMixerRoomDatabase: RoomDatabase() {
+abstract class RichigerRoomDatabase: RoomDatabase() {
 
     abstract fun userDao() : UserDao
     abstract fun productDao() : ProductDao
@@ -29,13 +29,13 @@ abstract class SpiMixerRoomDatabase: RoomDatabase() {
 
     companion object {
         @Volatile
-        private  var INSTANCE: SpiMixerRoomDatabase? = null
+        private  var INSTANCE: RichigerRoomDatabase? = null
 
-        fun getDatabase(context: Context): SpiMixerRoomDatabase {
+        fun getDatabase(context: Context): RichigerRoomDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
-                    SpiMixerRoomDatabase::class.java,
+                    RichigerRoomDatabase::class.java,
                     "spi_mixer_database"
                 ).fallbackToDestructiveMigration().build()
                 INSTANCE = instance
