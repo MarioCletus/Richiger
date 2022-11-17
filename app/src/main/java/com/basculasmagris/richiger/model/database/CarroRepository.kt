@@ -14,7 +14,7 @@ class CarroRepository (private  val carroDao: CarroDao) {
     val allCarroList: Flow<MutableList<Carro>> = carroDao.getAllCarroList()
     val activeCarroList: Flow<List<Carro>> = carroDao.getActiveCarroList()
 
-    fun getCarroById(id: Int) : Flow<Carro> = carroDao.getCarroById(id)
+    fun getCarroById(id: Long) : Flow<Carro> = carroDao.getCarroById(id)
     fun getFilteredCarroList(value: String): Flow<List<Carro>> = carroDao.getFilteredCarroList(value)
 
 

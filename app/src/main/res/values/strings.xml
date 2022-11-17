@@ -24,6 +24,7 @@
     <string name="menu_corral">Corrales</string>
     <string name="menu_diet">Dietas</string>
     <string name="menu_round">Rondas</string>
+    <string name="menu_carro">Carro</string>
 
     <!-- TITLES -->
     <string name="title_add_product">Agregar producto</string>
@@ -68,6 +69,7 @@
     <string name="lb_weight_unit_kg">Kg</string>
     <string name="lb_percentage_symbol">%</string>
     <string name="ph_product_rfid">RF ID</string>
+    <string name="ph_carro_rfid">RF ID</string>
     <string name="lbl_rfid">RfId:</string>
     <string name="lbl_app_id">App Id:</string>
     <string name="lbl_remote_id">Remote Id:</string>
@@ -92,8 +94,20 @@
     <string name="title_edit_corral">Editar corral</string>
     <string name="title_add_corral">Agregar corral</string>
     <string name="err_msg_corral_name">El nombre del corral es obligatorio</string>
-
     <string name="title_delete_corral">Borrar corral</string>
+
+
+    <string name="tv_no_carro_list">No hay carros cargados</string>
+    <string name="add_carro">Agregar carro</string>
+    <string name="action_edit_carro">Editar carro</string>
+    <string name="action_delete_carro">Borrar carro</string>
+    <string name="lbl_update_carro">Actualizar carro</string>
+    <string name="title_edit_carro">Editar carro</string>
+    <string name="title_add_carro">Agregar carro</string>
+    <string name="err_msg_carro_name">El nombre del carro es obligatorio</string>
+    <string name="title_delete_carro">Borrar carro</string>
+    <string name="msg_delete_carro_dialog">¿Está seguro que quiere borrar el carro %1$s?</string>
+
     <string name="msg_delete_corral_dialog">¿Está seguro que quiere borrar el corral %1$s?</string>
     <string name="lbl_establishment">Establecimiento:</string>
     <string name="lbl_animal_quantity">Cantidad de animales:</string>
@@ -122,6 +136,14 @@
     <string name="ph_product_name">Nombre</string>
     <string name="ph_product_description">Descripción</string>
     <string name="ph_product_specific_weight">Peso específico</string>
+    <string name="ph_carro_name">Nombre</string>
+    <string name="ph_carro_description">Descripción</string>
+    <string name="ph_carro_marca">Marca</string>
+    <string name="ph_carro_modelo">Modelo</string>
+    <string name="ph_carro_cuit">CUIT</string>
+    <string name="ph_carro_specific_weight">Peso específico</string>
+    <string name="ph_carro_volumen">Volumen</string>
+    <string name="ph_carro_balanza">Balanza</string>
     <string name="ph_establishment_name">Nombre</string>
     <string name="ph_establishment_description">Descripción</string>
     <string name="ph_corral_name">Nombre</string>
@@ -144,6 +166,10 @@
     <string name="screen_corral_list">Corrales</string>
     <string name="screen_corral_detail">Detalle del corral</string>
     <string name="screen_corral_new">Nuevo corral</string>
+
+    <string name="screen_carro_list">Carros</string>
+    <string name="screen_carro_detail">Detalle del carro</string>
+    <string name="screen_carro_new">Nuevo carro</string>
 
     <string name="screen_product_list">Productos</string>
     <string name="screen_product_detail">Detalle de producto</string>
@@ -194,6 +220,7 @@
     <string name="ph_round_total_weight">Total</string>
     <string name="ph_round_diet">Dieta</string>
     <string name="round_list">Rondas</string>
+    <string name="carro_list">Carros</string>
     <string name="round_detail_title">Detalle de ronda</string>
     <string name="no_description">Sin descripción</string>
     <string name="menu_sync">Sincronizar</string>

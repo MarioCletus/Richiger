@@ -26,6 +26,7 @@ sealed class MergedLocalData
 data class EstablishmentData(val establishments: MutableList<Establishment>): MergedLocalData()
 data class CorralData(val corrals: MutableList<Corral>): MergedLocalData()
 data class ProductData(val products: MutableList<Product>): MergedLocalData()
+data class CarroData(val carros: MutableList<Carro>): MergedLocalData()
 data class MixerData(val mixers: MutableList<Mixer>): MergedLocalData()
 data class DietData(val diets: MutableList<Diet>): MergedLocalData()
 data class DietProductDetailData(val dietProductsDetail: MutableList<DietProductDetail>): MergedLocalData()

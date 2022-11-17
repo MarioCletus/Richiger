@@ -19,7 +19,7 @@ interface CarroDao {
     fun getFilteredCarroList(name: String): Flow<List<Carro>>
 
     @Query("SELECT * FROM carro WHERE id = :id")
-    fun getCarroById(id: Int): Flow<Carro>
+    fun getCarroById(id: Long): Flow<Carro>
 
     @Update
     suspend fun updateCarro(carro: Carro)

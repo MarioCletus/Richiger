@@ -21,6 +21,7 @@ abstract class RichigerRoomDatabase: RoomDatabase() {
 
     abstract fun userDao() : UserDao
     abstract fun productDao() : ProductDao
+    abstract fun carroDao() : CarroDao
     abstract fun mixerDao() : MixerDao
     abstract fun establishmentDao() : EstablishmentDao
     abstract fun corralDao() : CorralDao

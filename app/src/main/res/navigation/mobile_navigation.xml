@@ -44,6 +44,38 @@
         tools:layout="@layout/activity_add_update_product" />
 
 
+    <!-- CARRO -->
+    <fragment
+        android:id="@+id/nav_carro"
+        android:name="com.basculasmagris.richiger.view.fragments.CarroListFragment"
+        android:label="@string/screen_carro_list"
+        tools:layout="@layout/fragment_carro_list" >
+        <action
+            android:id="@+id/action_carroFragment_to_carroDetailFragment"
+            app:destination="@id/nav_carro_detail" />
+        <action
+            android:id="@+id/action_nav_carro_to_addUpdateCarroActivity"
+            app:destination="@id/addUpdateCarroActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_carro_detail"
+        android:name="com.basculasmagris.richiger.view.fragments.CarroDetailFragment"
+        android:label="@string/screen_carro_detail"
+        tools:layout="@layout/fragment_carro_detail" >
+        <argument
+            android:name="carroDetail"
+            app:argType="com.basculasmagris.richiger.model.entities.Carro"
+            />
+    </fragment>
+
+    <activity
+        android:id="@+id/addUpdateCarroActivity"
+        android:name="com.basculasmagris.richiger.view.activities.AddUpdateCarroActivity"
+        android:label="@string/screen_carro_new"
+        tools:layout="@layout/activity_add_update_carro" />
+
+
     <!-- ESTABLISHMENTS -->
     <activity
         android:id="@+id/addUpdateEstablishmentActivity"

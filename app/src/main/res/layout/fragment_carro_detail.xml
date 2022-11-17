@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_5sdp"
+    tools:context=".view.fragments.CarroDetailFragment">
+
+    <LinearLayout
+        android:id="@+id/left_detail"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_carro_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_7sdp"
+            android:textStyle="normal"
+            tools:text="Carro 01">
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_carro_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="0dp"
+            android:backgroundTint="@color/gray_light"
+            app:cardBackgroundColor="@color/design_default_color_background"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/iv_carro_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:contentDescription=""
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_corral_detail"></ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_marginTop="@dimen/_1sdp"
+            >
+            <ImageView
+                android:id="@+id/iv_sync"
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_8sdp"
+                android:src="@drawable/ic_check"
+                app:tint="@color/black"
+                />
+            <TextView
+                android:id="@+id/tv_sync_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_6sdp"
+                android:textStyle="normal"
+                android:layout_marginLeft="@dimen/_2sdp"
+                tools:text="Sincronizado">
+
+            </TextView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/black"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:visibility="visible"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_6sdp"
+            android:textStyle="normal"
+            android:text="@string/additional_info" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_marginTop="@dimen/_3sdp"
+            >
+            <ImageView
+                app:tint="@color/black"
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_8sdp"
+                android:src="@drawable/ic_paw"
+                />
+
+            <TextView
+                android:id="@+id/tv_animal_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/_6sdp"
+                android:textStyle="normal"
+                android:layout_marginLeft="@dimen/_2sdp"
+                tools:text="10">
+            </TextView>
+
+            <ImageView
+                app:tint="@color/black"
+                android:layout_marginLeft="@dimen/_6sdp"
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_8sdp"
+                android:src="@drawable/ic_rf"
+                />
+
+            <TextView
+                android:id="@+id/tv_carro_rfid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/_6sdp"
+                android:textStyle="normal"
+                android:layout_marginLeft="@dimen/_2sdp"
+                tools:text="209302">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_marginTop="@dimen/_3sdp"
+            >
+            <ImageView
+                app:tint="@color/black"
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_8sdp"
+                android:src="@drawable/ic_establishment"
+                />
+
+            <TextView
+                android:id="@+id/tv_establishment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/_6sdp"
+                android:textStyle="normal"
+                android:layout_marginLeft="@dimen/_2sdp"
+                tools:text="La estancia">
+            </TextView>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/black"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:id="@+id/tv_carro_description_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_6sdp"
+            android:textStyle="normal"
+            android:text="@string/lbl_description">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_carro_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/_5sdp"
+            android:textStyle="normal"
+            android:layout_marginTop="@dimen/_3sdp"
+            tools:text="Agua de manantial traida Agua de manantial traida Agua de manantial traida Agua de manantial traida Agua de manantial traida Agua de manantial traida Agua de manantial traida Agua de manantial traida">
+
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vertical_separator"
+        android:layout_width="0.2dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_5sdp"
+        app:layout_constraintStart_toEndOf="@+id/left_detail"
+        app:layout_constraintTop_toTopOf="@+id/left_detail"
+        app:layout_constraintBottom_toBottomOf="@+id/left_detail"
+        android:background="@color/black"
+        android:orientation="horizontal">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/left_detail"
+        app:layout_constraintTop_toTopOf="@+id/left_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/left_detail"
+        >
+
+        <TextView
+            android:id="@+id/tv_no_additional_data"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_6sdp"
+            android:text="@string/tv_no_additional_data">
+
+        </TextView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

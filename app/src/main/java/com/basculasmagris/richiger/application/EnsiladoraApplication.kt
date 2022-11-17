@@ -10,6 +10,7 @@ class EnsiladoraApplication: Application() {
     val establishmentRepository by lazy { EstablishmentRepository(database.establishmentDao()) }
     val mixerRepository by lazy { MixerRepository(database.mixerDao()) }
     val productRepository by lazy { ProductRepository(database.productDao()) }
+    val carroRepository by lazy { CarroRepository(database.carroDao()) }
     val userRepository by lazy { UserRepository(database.userDao())}
     val roundRepository by lazy { RoundRepository(database.roundDao())}
 }
